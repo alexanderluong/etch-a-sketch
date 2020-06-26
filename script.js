@@ -29,7 +29,7 @@ function removeAllSquares() {
 function clearAllBlocks() {
   const allSquares = document.querySelectorAll(".square");
   allSquares.forEach((square) => (square.style.backgroundColor = "white"));
-  let blocksPerSide = prompt("How many blocks per side?") | 4;
+  let blocksPerSide = prompt("How many blocks per side?") || 4;
   initPage(blocksPerSide);
 }
 
