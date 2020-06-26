@@ -20,6 +20,6 @@ body {
 .square {
   background-color: white;
   outline: 3px solid black;
-  width: 25%;
-  height: 125px;
+  /* width: 25%; */
+  /* height: 125px; */
 }

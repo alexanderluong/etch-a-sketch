@@ -1,11 +1,14 @@
 function initPage(blocksPerSide) {
-  // TODO: clear the page first
+  const gridWidth = 600;
   removeAllSquares();
   let container = document.querySelector(".square-container");
 
   for (let x = 0; x < blocksPerSide ** 2; x++) {
     let square = document.createElement("div");
+    let dimension = Math.round(gridWidth / blocksPerSide);
     square.className = "square";
+    square.style.width = `${dimension}px`;
+    square.style.height = `${dimension}px`;
     container.appendChild(square);
     square.addEventListener("mouseover", changeToBlack);
   }
