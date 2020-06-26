@@ -58,3 +58,27 @@ button:focus {
   background-color: #0d090a;
   color: #f0f3f5;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0d090a;
+  color: #f0f3f5;
+  text-align: right;
+}
+
+.footer-text {
+  line-height: 8px;
+  padding-right: 20px;
+}
+
+.footer-text a {
+  color: #f0f3f5;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #10a8a0;
+}
