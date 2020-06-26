@@ -1,3 +1,25 @@
 body {
   font-family: "Pangolin", cursive;
 }
+
+.container {
+  justify-content: center;
+  text-align: center;
+  /* width: 400px; */
+}
+
+.square-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  width: 500px;
+}
+
+.square {
+  background-color: white;
+  outline: 3px solid black;
+  width: 25%;
+  height: 125px;
+}
