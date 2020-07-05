@@ -1,5 +1,5 @@
 function initPage(blocksPerSide) {
-  const gridWidth = 700;
+  const gridWidth = 550;
   removeAllSquares();
   let container = document.querySelector(".square-container");
 

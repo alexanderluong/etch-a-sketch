@@ -17,7 +17,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 700px;
+  width: 550px;
   box-shadow: 10px 10px 40px -5px rgba(0, 0, 0, 0.75);
 }
 
